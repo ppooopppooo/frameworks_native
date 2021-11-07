@@ -67,6 +67,7 @@ libbinder_device_interface_sources = [
 
 cc_library {
     name: "libbinder",
+    defaults: ["libbinder_has_the_same_header_defaults"],
 
     // for vndbinder
     vendor_available: true,
